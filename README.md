@@ -29,4 +29,4 @@ If you don't have `nmap` installed, you can install it using the following comma
 sudo apt update
 sudo apt install nmap
 
-#### Then just type nmap anywhere, and process whould start.
+Then just type nmap anywhere, and process should start.
