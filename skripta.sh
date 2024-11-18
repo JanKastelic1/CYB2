@@ -2,6 +2,7 @@
 
 # Install dependencies
 pip install python-dotenv
+cd ..
 cd Documents/
 touch network_ips.txt
 mkdir nmapp
