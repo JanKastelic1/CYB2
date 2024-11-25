@@ -17,6 +17,7 @@ This project is an automated **shell script** designed to execute a network scan
 2. **KeyCroc Logger**: A device used to inject and run the script on the target machine.
 3. **Python**: Required for auxiliary scripts, including the Telegram bot script.
 4. **Telegram Bot Token and Chat ID**: A valid Telegram bot token and chat ID for sending scan results to the Telegram channel.
+5. **git**: Must be on the target machine.
 
 ## Installation
 
