@@ -24,7 +24,7 @@ Select-String -Pattern 'IPv4|Subnet' -Path ifconfig_output.txt | Out-File -FileP
 # Navigate to the cloned project directory
 Write-Host "Navigating to the project directory and running netips.py..."
 cd ./nmapp/NMAP_CYB/
-python netips.py
+python netipswin.py
 
 # Run Nmap scan (ensure the network_ips.txt file exists)
 Write-Host "Running Nmap scan..."
