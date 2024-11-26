@@ -28,7 +28,8 @@ python netips.py
 
 # Run Nmap scan (ensure the network_ips.txt file exists)
 Write-Host "Running Nmap scan..."
-nmap -T5 -F --min-parallelism 100 -iL ~/Documents/network_ips.txt -oN ~/Documents/scan_results.txt --exclude 127.0.0.0/8
+nmap -T5 -F --min-parallelism 100 -iL "$env:USERPROFILE\Documents\network_ips.txt" -oN "$env:USERPROFILE\Documents\scan_results.txt" --exclude 127.0.0.0/8
+
 
 # Create .env file for Telegram Bot integration
 Write-Host "Setting up the Telegram bot configuration..."
